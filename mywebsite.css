@@ -1,3 +1,50 @@
 body {
-	backgound: #
+	background: grey
+}
+
+.title {
+	text-align: left;
+	padding-left: 25px;
+	font-family: "Andy";
+	font-size: 60px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: black;;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+
+}
+
+li a:hover {
+    background-color: white;
+	color: black;
+}
+
+.image	{
+	padding: 0px;
+}
+
+.picinfo	{
+	background-color: white;
+	height: 50px;
+	text-align: center;
+	float: right;
+	margin-right: 150px;
+
+
 }
