@@ -11,24 +11,23 @@ body {
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0px;
     overflow: hidden;
-    background-color: black;;
+    background-color: black;
+	
 }
 
 li {
     float: left;
-}
-
-li a {
-    display: block;
+	font-size: 20px;
+	display: block;
     color: white;
     text-align: center;
     padding: 15px;
     text-decoration: none;
-
+	
 }
+
+
 
 li a:hover {
     background-color: white;
@@ -36,15 +35,15 @@ li a:hover {
 }
 
 .image	{
-	padding: 0px;
+	display: -webkit-flex; 
+    -webkit-flex-wrap: wrap;
+    display: flex;   
+    flex-wrap: wrap;
 }
 
 .picinfo	{
 	background-color: white;
-	height: 50px;
-	text-align: center;
-	float: right;
-	margin-right: 150px;
-
-
+	height: 500px;
+	
 }
+
