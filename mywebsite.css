@@ -20,6 +20,7 @@ body {
 .infobar	{
 	float: left;
 	display: block;
+	border: 3px solid black;
 }
 
 
@@ -27,24 +28,24 @@ ul {
     list-style-type: none;
     overflow: hidden;
     background-color: white;
-
+	
 }
 
 li {
     float: left;
-	font-size: 20px;
+	font-size: 30px;
 	display: block;
     text-align: center;
     padding: 20px;
 	line-height: 1;
-	
-	
+
 }
 
 .searchbar {
 	background-color: black;
 	border-color: white;
 }
+
 li a{
 	text-decoration: none;
 	color: black;
@@ -52,20 +53,21 @@ li a{
 
 
 
-li a:hover {
+li:hover {
     background-color: black;
 	color: white;
 	
 }
 
-.image	{
-	column-count: 2;
+.slider	{
 	float: left;
+	column-count: 2;
 	
 }
 
 img	{
 	border: 5px solid black;
+	
 }
 
 .picinfo	{
