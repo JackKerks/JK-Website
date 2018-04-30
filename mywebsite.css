@@ -13,8 +13,8 @@ body {
 }
 
 .title a:hover{
-	background-color: white;
-	color: black;
+	background-color: black;
+	color: white;
 }
 
 .infobar	{
@@ -61,7 +61,8 @@ li:hover {
 
 .slider	{
 	float: left;
-	column-count: 2;
+	column-count: 2; 
+	text-align: left;
 	
 }
 
@@ -74,6 +75,7 @@ img	{
 	background-color: white;
 	height: 500px;
 	width: 300px;
+	border: 5px solid black;
 
 }
 
@@ -85,9 +87,14 @@ img	{
 }
 
 
+.paragraph1	{
+	text-align: center;
+	padding: 5px;
+	font-family: 'Gugi', cursive;
+}
 
-
-
-
-
+.carousel	{
+	width:	992px;
+	height: 500px;
+}
 
