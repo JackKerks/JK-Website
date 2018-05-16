@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
 	<head>
 		<link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
@@ -31,37 +32,21 @@
 			<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
 		</div>
 		
-		<div class="skis">
-			<div class="w3-content w3-display-container">
-			<img class="carousel" src="https://www.glisshop.co.uk/gfx/img/glisshop/product/113743/gallery/0/line-sick_day_104-2018-original.jpg" >
-			<img class="carousel" src="http://www.snow-forecast.com/system/images/5617/large/Big-White.jpg?1515901541">
-			<img class="carousel" src="http://quebecski.ca/assets/img/monts/11/slider/slide_3.jpg">
-
-			<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-			<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+			<div class="picinfo">
+				<h1 class="heading1"> Whistler Blackcomb</h1>
+				<p class="paragraph1">Whistler Blackcomb is a ski resort located 121 km 
+				north of Vancouver, in British Columbia, Canada. By many measures it is the largest ski resort in 
+				North America and has the greatest uphill lift capacity. It is owned by Vail Resorts of Colorado, and features 
+				the Peak 2 Peak Gondola for moving between Whistler and Blackcomb mountains at the top; Peak 2 Peak holds the record 
+				for the highest above ground cable car in the world. With all of this capacity, Whistler Blackcomb is also often the 
+				busiest ski resort, often besting 2 million visitors a year.</p>
+			</div>
+		</div>
 		</div>
 		
 		
 		
-		
 		<script>
-			var slideIndex = 1;
-			showDivs(slideIndex);
-
-			function plusDivs(n) {
-			showDivs(slideIndex += n);
-			}
-
-			function showDivs(n) {
-				var i;
-				var x = document.getElementsByClassName("carousel");
-				if (n > x.length) {slideIndex = 1}    
-				if (n < 1) {slideIndex = x.length}
-				for (i = 0; i < x.length; i++) {
-				x[i].style.display = "none";  
-			}
-			x[slideIndex-1].style.display = "block";  
-			}
 			var slideIndex = 1;
 			showDivs(slideIndex);
 

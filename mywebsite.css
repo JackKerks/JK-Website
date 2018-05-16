@@ -51,17 +51,18 @@ li a{
 	color: black;
 }
 
-
-
 li:hover {
     background-color: black;
 	color: white;
 	
 }
 
+li:hover a{
+	color: white;
+}
+
 .slider	{
 	float: left;
-	column-count: 2; 
 	text-align: left;
 	
 }
