@@ -61,7 +61,7 @@ li:hover a{
 	color: white;
 }
 
-.slider	{
+.mountains	{
 	float: left;
 	text-align: left;
 	
@@ -72,30 +72,17 @@ img	{
 	
 }
 
-.picinfo	{
-	background-color: white;
-	height: 500px;
-	width: 300px;
-	border: 5px solid black;
-
+.skis	{
+	float: left;
+	text-align: left;
 }
 
-.heading1 {
-	text-align: center;
-	font-size: 30px;
-	font-family: 'sofia-pro-condensed';
-	padding: 5px;
-}
-
-
-.paragraph1	{
-	text-align: center;
-	padding: 5px;
-	font-family: 'Gugi', cursive;
-}
-
-.carousel	{
+.carousel_1	{
 	width:	992px;
 	height: 500px;
 }
 
+.carousel_2	{
+	width:	304px;
+	height: 304px;
+}
