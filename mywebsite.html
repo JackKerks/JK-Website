@@ -16,8 +16,6 @@
 				<li><a href="./About.html">ABOUT</a><br /></li>
 				<li><a href="./Slopes.html">SLOPES</a><br /></li>
 				<li><a href="./Gear.html">GEAR</a><br /></li>
-				<li><input id="searchbar" type="text" name="search" placeholder="Search" class="searchbar"></li>
-				<li>
 			</ul>
 		</div>
 		
@@ -45,23 +43,24 @@
 		
 		
 		<script>
-			var slideIndex = 1;
-			showDivs(slideIndex);
+			var slideIndexTop = 1;
+			showDivsTop(slideIndexTop);
 
-			function plusDivs(n) {
-			showDivs(slideIndex += n);
+			function plusDivsTop(n) {
+			showDivsTop(slideIndexTop += n);
 			}
 
-			function showDivs(n) {
+			function showDivsTop(n) {
 				var i;
 				var x = document.getElementsByClassName("carousel_1");
-				if (n > x.length) {slideIndex = 1}    
-				if (n < 1) {slideIndex = x.length}
+				if (n > x.length) {slideIndexTop = 1}    
+				if (n < 1) {slideIndexTop = x.length}
 				for (i = 0; i < x.length; i++) {
 				x[i].style.display = "none";  
 			}
-			x[slideIndex-1].style.display = "block";  
+			x[slideIndexTop-1].style.display = "block";  
 			}
+			
 			
 			var slideIndex = 1;
 			showDivs(slideIndex);
@@ -80,6 +79,8 @@
 			}
 			x[slideIndex-1].style.display = "block";  
 			}
+			
+			
 		</script>
 		
 		
