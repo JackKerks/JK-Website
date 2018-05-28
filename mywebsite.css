@@ -20,7 +20,7 @@ body {
 .infobar	{
 	float: left;
 	display: block;
-	border: 3px solid black;
+	
 }
 
 
@@ -95,7 +95,13 @@ img	{
 	height: 500px;
 }
 
-
+.headers	{
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	text-decoration: underline;
+	
+}
 
 
 /*CSS for ABOUT.HTML */
@@ -110,10 +116,22 @@ img	{
 	padding: 5px;
 }
 
+.heading1{
+	color: white;
+}
 
 
 
 
+/*CSS for gear.html */
+
+
+.gearpics	{
+	border: 3px solid black;
+	margin: 30px;
+	column-count: 2;
+	
+}
 
 
 
