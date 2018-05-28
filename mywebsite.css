@@ -64,6 +64,18 @@ li:hover a{
 	
 }
 
+.Biggertitle	{
+	font-size: 50px;
+	text-align: center;
+	font-family: "andy";
+	background-color: white;
+	margin:20px;
+	margin-left: 300px;
+	border: 3px solid black;
+	width: 700px;
+	
+}
+
 .mountains	{
 	float: left;
 	text-align: left;
